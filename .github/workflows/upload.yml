@@ -1,13 +1,12 @@
 name: Upload Website
 
-environment: aws
-
 on:
   push:
     branches:
     - master
 
 jobs:
+  environment: aws
   deploy:
     runs-on: ubuntu-latest
     steps:
