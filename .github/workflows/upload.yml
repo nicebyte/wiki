@@ -1,5 +1,7 @@
 name: Upload Website
 
+environment: aws
+
 on:
   push:
     branches:
