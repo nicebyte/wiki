@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: make-dir
-      run: mkdir -p public && echo aaa > ./public/index.html
+    - name: generate
+      run: bash Generate.sh
     - uses: jakejarvis/s3-sync-action@master
       with:
         args: --acl public-read --follow-symlinks --delete
