@@ -10,6 +10,7 @@ cat << EOF
 <html>
   <head>
     <meta charset="utf-8">
+    		<link rel="icon" type="image/png" href="/Media/favicon-32x32.png" sizes="32x32">
 		<link rel="stylesheet" href="/WebAssets/slate.css">
     <title>${PAGE_TITLE}</title>
   </head>
