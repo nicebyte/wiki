@@ -19,8 +19,7 @@ msg_container.innerHTML = "Would you like to write it? Head over <a href=\""+ghL
   msg_container.innerHTML = "The category " + articleName.split("_")[1] + " doesn't appear to have any pages!";
   }
  }
- else {
+} else {
   msg_container.innerHTML = "This page doesn't seem to exist!";
   }
-}
 </script>
