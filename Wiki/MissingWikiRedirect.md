@@ -14,7 +14,7 @@ var isCategory = articleName.split("_")[0] == "Category";
 if (!isCategory) {
 var ghLink = "http://github.com/nicebyte/wiki/new/master/Wiki/Hmm?filename="+articleName+".md";
 msg_container.innerHTML = "Would you like to write it? Head over <a href=\""+ghLink+"\">to Github</a>!";
-window.location.href = ghLink;
+//window.location.href = ghLink;
   } else {
   msg_container.innerHTML = "The category " + articleName.split("_")[1] + " doesn't appear to have any pages!";
   }
