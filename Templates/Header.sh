@@ -10,7 +10,7 @@ cat << EOF
 <html>
   <head>
     <meta charset="utf-8">
-		<link rel="stylesheet" href="WebAssets/slate.css">
+		<link rel="stylesheet" href="/WebAssets/slate.css">
     <title>${PAGE_TITLE}</title>
   </head>
   <body>

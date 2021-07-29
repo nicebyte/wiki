@@ -9,7 +9,7 @@ EOF
 echo '<div style = "column-count: 3; column-gap: 1em; column-rule-style: solid">'
 for CATEGORY in ${CATEGORY_LIST};
 do
-	echo "<a href=\"Category${CATEGORY}.html\">${CATEGORY}</a><br/>"
+	echo "<a href=\"/Wiki/Category_${CATEGORY}.html\">${CATEGORY}</a><br/>"
 done
 echo "</div>"
 
