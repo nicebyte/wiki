@@ -42,10 +42,10 @@ do
 	do
 		LINKS+="<a href='${DOCUMENT}.html'>${DOCUMENT}</a><br/>"
 	done
-	export DOCUMENT_BODY="${LINKS}"
+	export DOCUMENT_BODY=`echo ${LINKS} | xargs -n1 | sort`
 	bash Templates/CategoryIndex.sh > "${OUTPUT_DIR}/Wiki/Category_${CATEGORY}.html"
 done
-
+CATEGORY_LIST=`echo ${CATEGORY_LIST} | xargs -n1 | sort`
 export DOCUMENT_TITLE=
 export DOCUMENT_BODY=`cat Wiki/${MAIN_PAGE_FILE_NAME}`
 bash Templates/Index.sh > "${OUTPUT_DIR}/index.html"
