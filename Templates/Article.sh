@@ -2,7 +2,7 @@
 source Templates/Header.sh
 cat <<EOF
 **${DOCUMENT_TITLE}**
-([edit](${WIKI_GITHUB_URL}/edit/Articles/${DOCUMENT_TITLE}.md))
+([edit](${WIKI_GITHUB_URL}/edit/Wiki/${DOCUMENT_TITLE}.md))
 
 ${DOCUMENT_BODY}
 EOF
