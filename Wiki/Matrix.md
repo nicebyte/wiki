@@ -73,7 +73,8 @@ $$
 \end{matrix}
 $$
 
-where $\boldsymbol{A}_{ij}$ are [[Minor]]s of $\boldsymbol{A}$.
+where $\boldsymbol{A}_{ij}$ are the first-order [[Minor]]s of $\boldsymbol{A}$
+corresponding to the given row and column.
 
 #### Adjoint Matrix
 
