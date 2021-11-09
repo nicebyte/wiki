@@ -33,4 +33,34 @@ $(\boldsymbol{M} - \lambda \boldsymbol{I})$ is singular (i.e. has a
 [[Determinant]] equal to $0$). The determinant of said matrix is a polynomial
 function of $\lambda$ and the roots of that polynomial are the eigenvalues.
 
+# Eigendecomposition
+
+According to the defining property of eigenvectors,
+
+$$
+\boldsymbol{M}\overline{a} = \lambda \overline{a}
+$$
+
+Let $\boldsymbol{Q}$ be the matrix where each column is one of $\boldsymbol{M}$'s
+eigenvectors. The matrix $\boldsymbol{M}\boldsymbol{Q}$ then is the same as
+$\boldsymbol{Q}$, but with each column multiplied by the corresponding eigenvalue.
+We can write $\boldsymbol{M}\boldsymbol{Q}$ as $\boldsymbol{M}\boldsymbol{\Lambda}$,
+where $\boldsymbol{\Lambda}$ is a diagonal matrix that has the eigenvalues of
+$\boldsymbol{M}$ on the main diagonal.
+
+If we assume that the eigenvectors of $\boldsymbol{M}$ are linearly independent,
+then $\boldsymbol{Q}$ is invertible, and therefore:
+
+$$
+\boldsymbol{M}\boldsymbol{Q}\boldsymbol{Q^{-1}} = $\boldsymbol{M}\boldsymbol{\Lambda}\boldsymbol{Q^{-1}}
+$$
+
+which gives us a factorization of $\boldsymbol{M}$ called the _eigendecomposition_:
+
+$$
+\boldsymbol{M} = $\boldsymbol{M}\boldsymbol{\Lambda}\boldsymbol{Q^{-1}}
+$$
+
+
+
 Categories: [[:Mathematics]], [[:LinearAlgebra]]
