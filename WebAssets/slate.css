@@ -14,6 +14,7 @@ body#md {
 .md .nonumberh1, .md .nonumberh2, .md .nonumberh3, .md .nonumberh4, .md .nonumberh5, .md .nonumberh6,
 .md .shortTOC, .md .mediumTOC, .md .longTOC {
     font-family: inherit;
+    border-bottom: none;
 }
 
 .md .tocHeader {
