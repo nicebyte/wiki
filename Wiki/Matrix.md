@@ -116,4 +116,4 @@ The transpose of an orthogonal matrix is its inverse.
 The [[Determinant]] of an orthogonal matrix is $1$. Transforms specified by
 orthogonal matrices preserve volume.
 
-Categories: [[:Mathematics]], [[:LinearAlgebra]]
+Categories: [[:Mathematics]], [[:LinearAlgebra]] 
