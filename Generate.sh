@@ -8,6 +8,8 @@ cp -r Media ${OUTPUT_DIR}/
 
 declare -A CATEGORY_INDEX
 
+dos2unix ./Wiki/*
+
 for DOCUMENT_FILENAME in ./Wiki/*;
 do
 	DOCUMENT_BASENAME=`basename ${DOCUMENT_FILENAME}`
@@ -16,7 +18,7 @@ do
 	then
 		continue
 	fi
-	DOCUMENT_CATEGORIES=`egrep "Categories\: +(\[\[\:[[:alnum:]]+\]\] *,? *)+$" ${DOCUMENT_FILENAME} -o | egrep "\[\[\:[[:alnum:]]+\]\]" -o | tr -d '[:]'`
+	DOCUMENT_CATEGORIES=`egrep "Categories\: +(\[\[\:[[:alnum:]]+\]\] *,?[[:space:]]*)+$" ${DOCUMENT_FILENAME} -o | egrep "\[\[\:[[:alnum:]]+\]\]" -o | tr -d '[:]'`
 
 	if [ -z "${DOCUMENT_CATEGORIES}" ]
 	then
