@@ -103,6 +103,11 @@ $\boldsymbol{B}$ represents a transform from space $2$ to space $3$, then
 $\boldsymbol{C}=\boldsymbol{B}\boldsymbol{A}$ represents a transform from space
 $1$ to space $3$.
 
+## A Note on Inverse Matrices
+
+If $\boldsymbol{A}$ represents a transform from space $1$ to space $2$, then its inverse,
+$\boldsymbol{A}^{-1}$ represents the transform from space $2$ to space $1$.
+
 ## Orthogonal Matrices
 
 If the column vectors of a matrix are all unit length and orthogonal to each
