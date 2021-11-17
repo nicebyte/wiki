@@ -31,4 +31,4 @@ $$
 $$
 \sin^2{θ} + \cos^2{θ} = 1
 $$
-Categories: [[:Mathematics]]
+Categories: [[:Mathematics]],[[:Geometry]]
