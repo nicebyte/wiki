@@ -14,10 +14,10 @@ the point is behind the plane.
 Assume we have a plane in coordinate space $A$ with a normal vector $\boldsymbol{\overline{N}}$, $D$ units asway from the origin. We
 want to transform this representation into its equivalent for coordinate space $B$.
 
-Assume $M_{AB}$ is the matrix representing the transformation from $A$ to $B$. $M_{AB}\boldsymbol{\overline{N}}$ would be the normal in
+Assume $M_{AB}$ is the matrix representing the transformation from $A$ to $B$. $(M_{AB}^{-1})^{T}\boldsymbol{\overline{N}}$ would be the normal in
 the new coordinate space.
-The distance from the new origin will be $M_{AB}\boldsymbol{\overline{N}} \cdot M_{AB}D\boldsymbol{\overline{N}}$
-(because $D\boldsymbol{\overline{N}}$ lies exactly on the plane).
+The distance from the new origin will be $(M_{AB}^{-1})^{T}\boldsymbol{\overline{N}} \cdot M_{AB}(D\boldsymbol{\overline{N}})$
+(because $D\boldsymbol{\overline{N}}$ is a point in old coordinates that lies exactly on the plane).
 
 
 Categories: [[:Mathematics]], [[:Geometry]]
